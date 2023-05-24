@@ -1,0 +1,1 @@
+In this repository, I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and I have created a model to predict whether a customer will churn or not, and lately, have deployed the model.
