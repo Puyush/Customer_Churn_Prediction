@@ -61,6 +61,6 @@ Dataset has following features:
 
 >>> About Model:
 
-As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, We will be using a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, we will be tuning Hyper-Parameters also to get the best estimator for our model. And all this thing is happening in a ML Pipeline which is unifying all this steps in a single unified framework.
+As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, We will be using a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, we will be tuning Hyper-Parameters also to get the best estimator for our model. And all this steps are going in a ML Pipeline which is unifying all these steps in a single unified framework.
 
 # Thank You.
