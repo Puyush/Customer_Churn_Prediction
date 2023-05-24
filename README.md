@@ -1,3 +1,5 @@
+Churn prediction is predicting which customers are at high risk of leaving your company or canceling a subscription to a service, based on their behavior with your product. When predicting churn, you're not just identifying at-risk customers, you’re also identifying pain points leading up to churn and helping to increase overall customer retention and satisfaction.
+
 In this repository, I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and I have created a model to predict whether a customer will churn or not, and lately, have deployed the model.
 
 I have uploaded the dataset as Telco-Customer-Churn.csv
