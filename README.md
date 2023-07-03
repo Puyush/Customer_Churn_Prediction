@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-Churn prediction is predicting which customers are at high risk of leaving your company or canceling a subscription to a service, based on their behavior with your product. When predicting churn, you're not just identifying at-risk customers, you’re also identifying pain points leading up to churn and helping to increase overall customer retention and satisfaction.
+Churn prediction is predicting which customers are at high risk of leaving your company or canceling a subscription to a service, based on their behavior with your product. When predicting churn, we're not just identifying at-risk customers but also identifying pain points leading up to churn and helping to increase overall customer retention and satisfaction.
 
 In this repository, I have performed the end to end Exploratory Data Analysis, and idenfitied the characteristics of the customers that are more likely to churn, and I have created a model to predict whether a customer will churn or not, and lately, have deployed the model. For each customer at any given time, it tells us how high the risk is of losing them in the future. Technically, it’s a binary classifier that divides clients into two groups (classes) — those who leave and those who don’t.
 
@@ -61,6 +61,8 @@ Dataset has following features:
 
 >>> About Model:
 
-As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, We will be using a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, we will be tuning Hyper-Parameters also to get the best estimator for our model. And all this steps are going in a ML Pipeline which is unifying all these steps in a single unified framework.
+As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, I made a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, I have tuned Hyper-Parameters also to get the best estimator for our model. And all this steps are going in a ML Pipeline which is unifying all these steps in a single unified framework.
+
+⭐️ If you find this project useful or interesting, please consider giving it a star! ⭐️
 
 # Thank You.
