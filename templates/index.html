@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Churn Prediction</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/mainpage.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>Customer Churn Prediction</h1>
+        <form method="post" action="/predict">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="comment">Senior Citizen:</label>
+              <select name="senior_citizen">
+                <option disabled selected value="">Choose</option>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+              </select>
+              <br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Partner:</label>
+              <select name="partner">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Dependents:</label>
+              <select name="dependents">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Internet Service:</label>
+              <select name="internet_service">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="DSL">DSL</option>
+                <option value="Fiber optic">Fiber Optics</option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Online Security:</label>
+              <select name="online_security">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Online Backup:</label>
+              <select name="online_backup">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Device Protection:</label>
+              <select name="device_protection">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Tech Support:</label>
+              <select name="tech_support">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Streaming TV:</label>
+              <select name="streaming_tv">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Streaming Movies:</label>
+              <select name="streaming_movie">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                <option value="No internet service">
+                  No Internet Service
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Contract:</label>
+              <select name="contract">
+                <option disabled selected value="">Choose</option>
+                <option value="Month-to-month">Month-to-Month</option>
+                <option value="One year">One Year</option>
+                <option value="Two year">Two Year</option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Paperless Billing:</label>
+              <select name="paperless_billing">
+                <option disabled selected value="">Choose</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Payment Method:</label>
+              <select name="payment_method">
+                <option disabled selected value="">Choose</option>
+                <option value="Electronic check">Electronic Check</option>
+                <option value="Mailed check">Mailed Check</option>
+                <option value="Bank transfer (automatic)">Bank Transfer</option>
+                <option value="Credit card (automatic)">
+                  Credit Card
+                </option></select
+              ><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Monthly Charges:</label>
+              <input
+                type="text"
+                autocomplete="off"
+                autofocus
+                placeholder="Enter Monthly Charges"
+                name="monthly_charges"
+              /><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Total Charges:</label>
+              <input
+                type="text"
+                autocomplete="off"
+                autofocus
+                placeholder="Enter Total Charges"
+                name="total_charges"
+              /><br /><br />
+            </div>
+            <div class="form_control">
+              <label for="comment">Tenure:</label>
+              <select name="tenure">
+                <option disabled selected value="">Choose</option>
+                <option value="0-12 Months">0-12 Months</option>
+                <option value="12-24 Months">12-24 Months</option>
+                <option value="24-48 Months">24-48 Months</option>
+                <option value="Over 48 Months">Over 48 Months</option></select
+              ><br /><br />
+              <div class="button_container">
+                <button type="submit" value="Predict">Predict</button>
+              </div>
+            </div>
+        </form>
+        {% if result %}
+        <h2 class="end">
+    <span>Result: {{ result }}</span>
+    <h2>
+    {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
