@@ -61,7 +61,7 @@ Dataset has following features:
 
 >>> About Model:
 
-As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, I made a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, I have tuned Hyper-Parameters also to get the best estimator for our model. And all this steps are going in a ML Pipeline which is unifying all these steps in a single unified framework.
+As the dataset is bit imbalanced, I have used SMOTEENN from the imbalanced-learn library to resample the dataset. Then, I made a Multi-Layer Stacking, a ensemble technique to predict better predictions. Along with this, for each model used in stacking layers, I have tuned Hyper-Parameters also to get the best estimator for our model. And all this steps are going in a ML Pipeline which is unifying all these steps in a single unified framework. I have also tried to deploy it on local server using Flask. 
 
 ⭐️ If you find this project useful or interesting, please consider giving it a star! ⭐️
 
