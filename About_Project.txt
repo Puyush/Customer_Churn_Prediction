@@ -1,0 +1,42 @@
+Churn Prediction for Telco Company: A Structured Approach
+
+1. Data Understanding and Preparation:
+
+Analyzed an imbalanced dataset with 26% churn instances.
+Utilized SMOTEENN technique for balancing the dataset, creating a representative training set.
+
+2. Feature Engineering:
+
+Addressed dimensionality and training time concerns.
+Applied chi-squared test to identify and eliminate insignificant categorical features.
+
+3. Data Preprocessing:
+
+Ensured uniform feature scales using standard scaling.
+Employed One-Hot Encoding to transform categorical variables.
+
+4. Dimensionality Reduction:
+
+Applied Principal Component Analysis (PCA) to reduce dimensionality while preserving 90% of the variance.
+5. Ensemble Modeling and Stacking:
+
+Developed a Multi-Layer Stacking ensemble method.
+Hierarchically combined models to correct errors and enhance predictions.
+Employed Hyper-Parameter tuning with RandomizedSearchCV.
+
+6. Unified Framework:
+
+Created a Machine Learning Pipeline for consistency and reproducibility.
+Ensured streamlined project execution and efficiency.
+
+Key Observations and Insights:
+
+1. Customers on one- or two-year contracts tend to churn when Total Charges are higher. Suggested bonus reductions after contract periods.
+2. Month-to-Month contracts highly correlate with churn. Strategies to retain customers opting for this contract type are essential.
+3. Low churn observed for long-term contracts, subscriptions without internet, and customers engaged for 5+ years.
+4. Factors like Gender, PhoneService availability, and multiple lines have minimal impact on churn.
+
+Results and Impact:
+Our approach led to the development of a robust churn prediction model, empowering the telco company to identify at-risk customers and target pain points. 
+Proactive measures for customer retention and satisfaction were implemented, enhancing the company's competitive position in the telecommunications industry.
+This not only addressed the critical challenge of customer churn prediction but also provided actionable insights for the telco company's strategic decisions.
