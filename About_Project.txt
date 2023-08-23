@@ -1,4 +1,4 @@
-Churn Prediction for Telco Company: A Structured Approach
+Churn Prediction for Telco Company: A Structured Approach 
 
 1. Data Understanding and Preparation:
 
@@ -18,6 +18,7 @@ Employed One-Hot Encoding to transform categorical variables.
 4. Dimensionality Reduction:
 
 Applied Principal Component Analysis (PCA) to reduce dimensionality while preserving 90% of the variance.
+
 5. Ensemble Modeling and Stacking:
 
 Developed a Multi-Layer Stacking ensemble method.
@@ -37,6 +38,7 @@ Key Observations and Insights:
 4. Factors like Gender, PhoneService availability, and multiple lines have minimal impact on churn.
 
 Results and Impact:
+
 Our approach led to the development of a robust churn prediction model, empowering the telco company to identify at-risk customers and target pain points. 
 Proactive measures for customer retention and satisfaction were implemented, enhancing the company's competitive position in the telecommunications industry.
 This not only addressed the critical challenge of customer churn prediction but also provided actionable insights for the telco company's strategic decisions.
