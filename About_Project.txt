@@ -1,5 +1,7 @@
 Churn Prediction for Telco Company: A Structured Approach 
 
+I worked on solving a critical business challenge for a fictional telco company that provided home phone and Internet services to customers. The challenge was to predict customer churn, which is the likelihood of customers canceling their subscriptions or leaving the company. This task is crucial for retaining customers, enhancing satisfaction, and ultimately maintaining a healthy bottom line.
+
 1. Data Understanding and Preparation:
 
 Analyzed an imbalanced dataset with 26% churn instances.
